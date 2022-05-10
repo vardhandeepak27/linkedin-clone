@@ -1,5 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import { connect } from "react-redux";
 
 const Login = (props) => {
     return (
@@ -160,4 +161,11 @@ transition-duration:167ms ;
 font-size:20px ;
 `;
 
-export default Login
+const mapStateToProps = (state) => {
+    return {};
+};
+
+const mapDispatchToProps = (dispatch) => ({});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
+
