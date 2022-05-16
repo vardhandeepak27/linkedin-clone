@@ -35,9 +35,9 @@ const Main = () => {
                     <span>Photo</span>
                     <button><img src="/images/video-icon.png" alt="" /></button>
                     <span>Video</span>
-                    <button><img src="/images/event-icon.svg" alt="" /></button>
+                    <button><img src="/images/event-icon.png" alt="" /></button>
                     <span>Event</span>
-                    <button><img src="/images/article-icon.svg" alt="" /></button>
+                    <button><img src="/images/article-icon.png" alt="" /></button>
                     Write articles
                 </div>
             </ShareBox>
@@ -53,7 +53,7 @@ const Main = () => {
                             </div>
                         </a>
                         <button>
-                            <img src="/images/ellipsis.svg" alt="" />
+                            <img src="/images/ellipsis.png" alt="" />
                         </button>
                     </SharedActor>
                     <Description>Description</Description>
