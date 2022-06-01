@@ -32,7 +32,6 @@ const Main = (props, articles) => {
         }
     }
 
-    console.log(articles);
     return (
         <>
             <Container>
@@ -108,19 +107,19 @@ const Main = (props, articles) => {
                                 </SocialCounts>
                                 <SocialActions>
                                     <button>
-                                        <img src="/images/like-icon.svg" alt="" />
+                                        <img src="/images/thumb-up.png" alt="" />
                                         <span>Like</span>
                                     </button>
                                     <button>
-                                        <img src="/images/comments-icon.svg" alt="" />
+                                        <img src="/images/comment-icon.png" alt="" />
                                         <span>Comments</span>
                                     </button>
                                     <button>
-                                        <img src="/images/share-icon.svg" alt="" />
+                                        <img src="/images/share-icon.png" alt="" />
                                         <span>Share</span>
                                     </button>
                                     <button>
-                                        <img src="/images/send-icon.svg" alt="" />
+                                        <img src="/images/send-icon.png" alt="" />
                                         <span>Send</span>
                                     </button>
                                 </SocialActions>
@@ -153,7 +152,7 @@ const ShareBox = styled(CommonCard)`
 display:flex ;
 flex-direction:column ;
 color:#958b7b ;
-margin:0 0 8px ;
+margin:0 0 8 px ;
 background:white ;
 div{
     button{
@@ -197,6 +196,7 @@ div{
         button{
             img{
                 margin:0 4px 0 -2px;
+                width:55px ;
             }
             span{
                 color:#70b5f9;

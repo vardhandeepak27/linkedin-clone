@@ -221,6 +221,7 @@ const NavList = styled.li`
 
 const SignOut = styled.div`
 position:absolute ;
+cursor: pointer;
 top:45px;
 background:white ;
 border-radius:0 0 5px 5px ;
@@ -236,12 +237,14 @@ const User = styled(NavList)`
 a>svg{
   width:24px;
   border-radius:50% ;
+
   }
 
   a>img{
     width:24px ;
     height:24px ;
     border-radius:50% ;
+    cursor: pointer;
   }
 
   span{

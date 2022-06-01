@@ -78,6 +78,7 @@ margin-right:12px ;
 const SignIn = styled.a`
 box-shadow: inset 0 0 0 1px #0a66c2 ;
 color: #0a66c2;
+cursor: pointer;
   border-radius: 24px;
   transition-duration: 167ms;
   font-size: 16px;
@@ -154,6 +155,7 @@ width:408px ;
 
 const Google = styled.button`
 display:flex ;
+cursor: pointer;
 justify-content:center ;
 background-color:#fff ;
 align-items:center ;
@@ -166,6 +168,11 @@ vertical-align:middle ;
 z-index:0 ;
 transition-duration:167ms ;
 font-size:20px ;
+&:hover{
+      background-color: rgba(112,181,249,0.15);
+      color:#0a66c2 ;
+      text-decoration:none ;
+  }
 `;
 
 const mapStateToProps = (state) => {
